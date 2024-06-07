@@ -36,4 +36,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/yappbackend:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/yapp-backend:latest

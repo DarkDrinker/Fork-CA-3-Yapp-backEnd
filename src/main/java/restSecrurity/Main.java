@@ -6,7 +6,7 @@ import config.Routes;
 public class Main {
     public static void main(String[] args) {
         //Populator.populateDatabase(false);
-        startServer(7070);
+        startServer(7080);
     }
     private static void startServer(int port) {
         ApplicationConfig applicationConfig = ApplicationConfig.getInstance();
